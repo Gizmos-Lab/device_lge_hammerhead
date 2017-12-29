@@ -176,7 +176,12 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle
 
 PRODUCT_COPY_FILES += \
-    device/lge/hammerhead/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml
+
+    device/lge/hammerhead/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    device/lge/hammerhead/audio/audio_policy.conf:system/etc/audio_policy.conf \
+    device/lge/hammerhead/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml \
+    device/lge/hammerhead/audio/mixer_paths.xml:system/etc/mixer_paths.xml
+
 
 
 # Camera
