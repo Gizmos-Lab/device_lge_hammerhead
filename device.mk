@@ -429,6 +429,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat-swap=false
 
 # setup dalvik vm configs.
+<<<<<<< HEAD
+=======
+#$(call inherit-product, vendor/extras/configs/phone-xhdpi-2048-dalvik-heap.mk)
+>>>>>>> 8bf0fe3... AEX bringup for hammerhead
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # USB HAL
