@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-<<<<<<< HEAD
+
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
-=======
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our custom product configuration
@@ -38,8 +38,6 @@ $(call inherit-product, device/lge/hammerhead/device.mk)
 $(call inherit-product-if-exists, vendor/lge/hammerhead/device-vendor.mk)
 
 #$(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
->>>>>>> 8bf0fe3... AEX bringup for hammerhead
-
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
